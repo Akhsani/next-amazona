@@ -2,6 +2,7 @@ const data = {
     products: [
         {
             name: 'Free Shirt',
+            slug: 'free-shirt',
             category: 'Shirts',
             image: '/images/shirt1.jpg',
             price: 70,
@@ -12,6 +13,7 @@ const data = {
             description: 'A popular shirt',
         }, {
             name: 'Fit Shirt',
+            slug: 'fit-shirt',
             category: 'Shirts',
             image: '/images/shirt2.jpg',
             price: 90,
@@ -22,6 +24,7 @@ const data = {
             description: 'A simple shirt',
         }, {
             name: 'Slim Shirt',
+            slug: 'slim-shirt',
             category: 'Shirts',
             image: '/images/shirt3.jpg',
             price: 70,
@@ -32,6 +35,7 @@ const data = {
             description: 'A good shirt',
         }, {
             name: 'Casual Pants',
+            slug: 'casual-pants',
             category: 'Pants',
             image: '/images/pants1.jpg',
             price: 65,
@@ -42,6 +46,7 @@ const data = {
             description: 'A popular pants',
         }, {
             name: 'Golf Pants',
+            slug: 'golf-pants',
             category: 'Pants',
             image: '/images/pants2.jpg',
             price: 70,
@@ -52,7 +57,8 @@ const data = {
             description: 'A popular shirt',
         }, {
             name: 'Classic Pants',
-            category: 'ShPantsirts',
+            slug: 'classic-pants',
+            category: 'Pants',
             image: '/images/pants3.jpg',
             price: 72,
             brand: 'Uniqlo',
