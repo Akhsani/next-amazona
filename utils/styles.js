@@ -2,11 +2,11 @@ import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles({
     navbar: {
-        backgroundColor: '#203040',
+        background: '#203040',
         '& a': {
             color: '#ffffff',
             marginLeft: 10
-        }
+        },
     },
     brand: {
         fontWeight: 'bold',

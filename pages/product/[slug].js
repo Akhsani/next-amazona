@@ -1,8 +1,8 @@
 import { Button, Card, Grid, Link, List, ListItem, Typography } from '@mui/material';
 import Image from 'next/image';
 import NextLink from 'next/link';
-import { useRouter } from 'next/router'
-import React from 'react'
+import { useRouter } from 'next/router';
+import React from 'react';
 import Layout from '../../components/Layout';
 import data from '../../utils/data';
 import useStyles from '../../utils/styles';
@@ -28,7 +28,7 @@ export default function ProductScreen() {
                 </Grid>
                 <Grid item md={3} xs={12}>
                     <List>
-                        <ListItem><Typography component="h1">{product.name}</Typography></ListItem>
+                        <ListItem><Typography component="h1" variant="h1">{product.name}</Typography></ListItem>
                         <ListItem><Typography>Category: {product.category}</Typography></ListItem>
                         <ListItem><Typography>Brand: {product.brand}</Typography></ListItem>
                         <ListItem><Typography>Rating: {product.rating} stars ({product.numReviews} reviews)</Typography></ListItem>
